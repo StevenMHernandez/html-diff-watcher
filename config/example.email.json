@@ -1,0 +1,7 @@
+{
+  "to": "Example <example@example.com>",
+  "from": "Example <example@example.com>",
+  "user": "example@example.com",
+  "password": "your_app_pass",
+  "host": "smtp.gmail.com"
+}

@@ -1,0 +1,9 @@
+{
+  "request_options": {
+    "url": "https://google.com"
+  },
+  "selector": "#hplogo",
+  "email": {
+    "subject": "New Google Doodle"
+  }
+}

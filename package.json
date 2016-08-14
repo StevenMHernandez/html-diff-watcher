@@ -1,0 +1,17 @@
+{
+  "name": "html-diff-watcher",
+  "version": "0.0.1",
+  "description": "Watches a url for changes in html and sends an email notification if there are differences",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StevenmHernandez <contact@stevenHdesigns.com>",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "emailjs": "^1.0.5",
+    "filendir": "^1.0.0",
+    "request": "^2.74.0",
+    "sendmail": "^0.2.2"
+  }
+}
