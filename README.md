@@ -53,3 +53,9 @@ It's a quick way to *simulate* submitting a login form.
 ## Usage
 
 `node src/index.js`
+
+or you could create a cron task:
+
+`crontab -e`
+
+add `* */1 * * * sudo /path/to/bin/node /path/to/html-diff-watcher/src/index.js > /dev/null` to the end to run the watcher every hour
