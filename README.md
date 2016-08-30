@@ -26,6 +26,17 @@ Pulls html from a url. Checks to see if there have been any changes since the la
 
 This script loads google.com, then selects the item with an id of `hplogo`. If the script had been run before, it compares the previous one with the new version. If there has been a change, it will email you (based on the email at `/config` showing you the new html of the selector.
 
+If you would like the script to go to a separate email from what was set up in `config/email.json` add `to` and `from` to `email`
+
+```
+"email": {
+  "subject": "New Google Doodle",
+  "to": "Example <example@example.com>",
+  "from": "Example <example@example.com>",
+}
+```
+
+*********
 
 ```
 {

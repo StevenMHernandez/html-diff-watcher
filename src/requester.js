@@ -79,8 +79,8 @@ exports.make_request = function (config) {
 
     function sendEmail(contents) {
         server.send({
-            from: email_config.from,
-            to: email_config.to,
+            from: config.email.from || email_config.from,
+            to: config.email.to || email_config.to,
             subject: config.email.subject,
             attachment: [
                 {data: contents, alternative: true}
